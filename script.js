@@ -14,7 +14,6 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
 
   //When there is no input by the user
-  console.log(secretNumber, guess);
   if (!guess) {
     displayMessage('Please guess a number to start the game!!');
   }
